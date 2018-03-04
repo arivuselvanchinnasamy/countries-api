@@ -36,9 +36,13 @@ RESTful API to retrieve continents, countries information
 ## REST APIs
 
 The app defines following APIs.
-
-GET /api/v1/continents
-GET /api/v1/countries
-GET /api/v1/continents/{code} 
-GET /api/v1/countries/{code}
-
+    
+    GET /api/v1/continents
+    
+    GET /api/v1/continents/{code} 
+      For ex:  /api/v1/continents/AF
+    
+    GET /api/v1/countries
+    
+    GET /api/v1/countries/{code}
+      For Ex: /api/v1/countries/IN
