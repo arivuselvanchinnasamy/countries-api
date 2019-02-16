@@ -23,7 +23,7 @@ RESTful API to retrieve continents, countries information
 
 	change spring.datasource.username and spring.datasource.password as per your mysql installation
 
-2. Build and run the app using maven
+4. Build and run the app using maven
 
 	mvn package
 	java -jar target/countries-api-0.0.1-SNAPSHOT.jar
